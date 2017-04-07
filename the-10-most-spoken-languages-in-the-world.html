@@ -3,7 +3,8 @@
 
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <!-- NOTE: we were missing the minimum-scale attribute (intentionally ?!?) -->
+    <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, maximum-scale=1">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="copyright" content="Lesson Nine GmbH"/>
     <meta name="author" content="Lesson Nine GmbH"/>
@@ -59,6 +60,11 @@
     <meta property="og:site_name" content="The Babbel Magazine"/>
     <meta property="fb:app_id" content="102438249810838"/>
 
+    <!-- AMP script from google's cdn -->
+    <script async src="https://cdn.ampproject.org/v0.js"></script>
+    <!-- BEGIN AMP Boilerplate -->
+    <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
+    <!-- END AMP Boilerplate -->
   </head>
 
   <body class="magazine article">
@@ -113,7 +119,12 @@
                     <a class="go-lang-selector" href="https://go.babbel.com/engmag-deu/default">
                     <li class="btn flag-button hidden-phone text-center">
                       <div>
-                        <img src="https://www.babbel.com/magazine/static/magazine/flag_deu-bdf48f2b3c56ca330c764b9aeed6cfa2a748e5202f51928c3602960d6598b367.png" alt="Flag deu"/>
+                        <amp-img
+                          src="https://www.babbel.com/magazine/static/magazine/flag_deu-bdf48f2b3c56ca330c764b9aeed6cfa2a748e5202f51928c3602960d6598b367.png"
+                          width="66" height="68"
+                          alt="Flag deu"
+                          layout="responsive"
+                        />
                       </div>
                       <div>
                         <p>German</p>
@@ -123,7 +134,12 @@
                   <a class="go-lang-selector" href="https://go.babbel.com/engmag-spa/default">
                     <li class="btn flag-button hidden-phone text-center">
                       <div>
-                        <img src="https://www.babbel.com/magazine/static/magazine/flag_spa-a3d8d774e0ed57463344faf8f8e2ead2cc56ba22685af806c3f12e40622674bc.png" alt="Flag spa"/>
+                        <amp-img
+                          src="https://www.babbel.com/magazine/static/magazine/flag_spa-a3d8d774e0ed57463344faf8f8e2ead2cc56ba22685af806c3f12e40622674bc.png"
+                          width="66" height="68"
+                          layout="responsive"
+                          alt="Flag spa"
+                        />
                       </div>
                       <div>
                         <p>Spanish</p>
@@ -133,7 +149,12 @@
                   <a class="go-lang-selector" href="https://go.babbel.com/engmag-ita/default">
                     <li class="btn flag-button hidden-phone text-center">
                       <div>
-                        <img src="https://www.babbel.com/magazine/static/magazine/flag_ita-ab1e2c803f9612ac0187ef7263a9271ec103e9e21d9f6142bec1f901adb26d22.png" alt="Flag ita"/>
+                        <amp-img
+                          src="https://www.babbel.com/magazine/static/magazine/flag_ita-ab1e2c803f9612ac0187ef7263a9271ec103e9e21d9f6142bec1f901adb26d22.png"
+                          width="66" height="68"
+                          alt="Flag ita"
+                          layout="responsive"
+                        />
                       </div>
                       <div>
                         <p>Italian</p>
@@ -143,7 +164,12 @@
                   <a class="go-lang-selector" href="https://go.babbel.com/engmag-fra/default">
                     <li class="btn flag-button hidden-phone text-center">
                       <div>
-                        <img src="https://www.babbel.com/magazine/static/magazine/flag_fra-a6c6c61e8b8a8bb90f9aecdfde4ca1da8f0f6ddb1d34fa1db99782e1a1184abe.png" alt="Flag fra"/>
+                        <amp-img
+                          src="https://www.babbel.com/magazine/static/magazine/flag_fra-a6c6c61e8b8a8bb90f9aecdfde4ca1da8f0f6ddb1d34fa1db99782e1a1184abe.png"
+                          width="66" height="68"
+                          alt="Flag fra"
+                          layout="responsive"
+                        />
                       </div>
                       <div>
                         <p>French</p>
@@ -153,7 +179,12 @@
                   <a class="go-lang-selector" href="https://go.babbel.com/engmag-por/default">
                     <li class="btn flag-button hidden-phone text-center">
                       <div>
-                        <img src="https://www.babbel.com/magazine/static/magazine/flag_por-83bf34d824378b3571baa885d7b8576bff3bba2f4d8e5b52fa828cf8bde4f183.png" alt="Flag por"/>
+                        <amp-img
+                          src="https://www.babbel.com/magazine/static/magazine/flag_por-83bf34d824378b3571baa885d7b8576bff3bba2f4d8e5b52fa828cf8bde4f183.png"
+                          width="66" height="68"
+                          alt="Flag por"
+                          layout="responsive"
+                        />
                       </div>
                       <div>
                         <p>Portuguese</p>
@@ -163,7 +194,12 @@
                   <a class="go-lang-selector" href="https://go.babbel.com/engmag-swe/default">
                     <li class="btn flag-button hidden-phone hidden-tablet text-center">
                       <div>
-                        <img src="https://www.babbel.com/magazine/static/magazine/flag_swe-21d08ad18430618404a4dee9ecd2b1403238db3b4b2f662d486eefedabab09de.png" alt="Flag swe"/>
+                        <amp-img
+                          src="https://www.babbel.com/magazine/static/magazine/flag_swe-21d08ad18430618404a4dee9ecd2b1403238db3b4b2f662d486eefedabab09de.png"
+                          width="66" height="68"
+                          alt="Flag swe"
+                          layout="responsive"
+                        />
                       </div>
                       <div>
                         <p>Swedish</p>
@@ -173,7 +209,12 @@
                   <a class="go-lang-selector" href="https://go.babbel.com/engmag-tur/default">
                     <li class="btn flag-button hidden-phone hidden-tablet text-center">
                       <div>
-                        <img src="https://www.babbel.com/magazine/static/magazine/flag_tur-341edd932a9379fc124aef9c95194d6f2ca20767aa165f1ebd3cd4136a43c5b0.png" alt="Flag tur"/>
+                        <amp-img
+                          src="https://www.babbel.com/magazine/static/magazine/flag_tur-341edd932a9379fc124aef9c95194d6f2ca20767aa165f1ebd3cd4136a43c5b0.png"
+                          width="66" height="68"
+                          alt="Flag tur"
+                          layout="responsive"
+                        />
                       </div>
                       <div>
                         <p>Turkish</p>
@@ -183,7 +224,12 @@
                   <a class="go-lang-selector" href="https://go.babbel.com/engmag-all/default">
                     <li class="btn flag-button text-center hidden-phone">
                       <div>
-                        <img src="https://www.babbel.com/magazine/static/magazine/flag_babbel-f60c43b4fa062a6468c9ed3daf06d40fe592caa8f90fd53518041d2b190a5409.png" alt="Flag babbel"/>
+                        <amp-img
+                          src="https://www.babbel.com/magazine/static/magazine/flag_babbel-f60c43b4fa062a6468c9ed3daf06d40fe592caa8f90fd53518041d2b190a5409.png"
+                          width="66" height="68"
+                          alt="Flag babbel"
+                          layout="responsive"
+                        />
                       </div>
                       <div>
                         <p>more&#8230;</p>
@@ -221,14 +267,19 @@
                   <div class="sticky-share-container">
                     <!-- Left sidebar social media  -->
                     <div class="addthis_sharing_toolbox"></div>
-                    <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-53a1a42170383904"></script>
-
+                    <!-- BEGIN removed addthis javascript -->
+                    <!-- <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-53a1a42170383904"></script> -->
+                    <!-- END removed addthis javascript -->
                   </div>
                 </div>
                 <div class="span7">
                   <!-- Big image -->
                   <div class="image-video">
-                    <img src="https://www.babbel.com/magazine/static/img/en/10_Most_Spoken_Languages_Header.jpg"/>
+                    <amp-img
+                      src="https://www.babbel.com/magazine/static/img/en/10_Most_Spoken_Languages_Header.jpg"
+                      width="700" height="394"
+                      layout="responsive"
+                    />
                   </div>
 
                   <!-- Content -->
@@ -244,29 +295,54 @@
                     </p>
                     <h2>1. Chinese</h2>
                     <p>
-                      <img src="https://www.babbel.com/magazine/static/img/en/CHINESE-20160426074450.jpg" alt="chinese"/>
-                      <br></p>
+                      <amp-img
+                        src="https://www.babbel.com/magazine/static/img/en/CHINESE-20160426074450.jpg"
+                        width="700" height="200"
+                        alt="chinese"
+                        layout="responsive"
+                      />
+                      <br>
+                    </p>
                     <p>Numbers vary widely —
                       <a href="http://www.ethnologue.com/statistics/size" target="_blank">Ethnologue</a>
                       puts the number of native speakers at almost 1.2 billion native speakers, roughly a billion of whom speak Mandarin — but there is no doubt of its clout. If you wish to learn a language that one in six people in the world speak, this is the one for
                       you. A tonal language with pictograms, it will certainly keep you busy.
                     </p>
                     <h2>2. Spanish</h2>
-                    <p><img src="https://www.babbel.com/magazine/static/img/en/ESPANOL.jpg" alt="Spanish"/>\
+                    <p>
+                      <amp-img
+                        src="https://www.babbel.com/magazine/static/img/en/ESPANOL.jpg"
+                        width="700" height="200"
+                        alt="Spanish"
+                        layout="responsive"
+                      />
                       <br></p>
                     <p>If we are only to look at native speakers, Spanish has its nose in front of English with about 400 million speakers. If you want a language that will open up whole continents to you, Spanish is your best bet. As with all the languages on this
                       list, the politics of language and associated identity are highly disputed: ask Catalan or Quechua speakers if Spanish is their local tongue and you will get a very different answer. But it is certainly the primary language of most of South and
                       Central America, Spain, and,
                       <em>ahem</em>, large swathes of the US.</p>
                     <h2>3. English</h2>
-                    <p><img src="https://www.babbel.com/magazine/static/img/en/ENGLISH.jpg" alt="English"/>
-                      <br></p>
+                    <p>
+                      <amp-img
+                        src="https://www.babbel.com/magazine/static/img/en/ENGLISH.jpg"
+                        width="700" height="200"
+                        alt="English"
+                        layout="responsive"
+                      />
+                      <br>
+                    </p>
                     <p>If you’re reading this article you may be one of the 360 million-odd native English speakers, or one of the half a billion people who speak it as a second language. This indicates the remarkable success of English as the
                       <em>lingua franca</em>
                       of business, travel and international relations. The relative ease with which English can be picked up (especially compared with Chinese) and the pervasive soft power of US culture mean that English will continue to dominate the world stage. For
                       some, English is still synonymous with opportunity and a better quality of life.</p>
                     <h2>4. Hindi</h2>
-                    <p><img src="https://www.babbel.com/magazine/static/img/en/HINDI-20160809122255.jpg" alt=""/>
+                    <p>
+                      <amp-img
+                        src="https://www.babbel.com/magazine/static/img/en/HINDI-20160809122255.jpg"
+                        width="700" height="200"
+                        alt="Hindi"
+                        layout="responsive"
+                      />
                       <br></p>
                     <p>India has 23 official languages, with Hindi/Urdu chief among them. Whether this is one language,
                       <em>Hindustani</em>, or two dialects, is still fiercely contested. Spoken mainly in northern India and parts of Pakistan, Hindi uses
@@ -281,31 +357,62 @@
                       <em>bungalow</em>
                       — what’s not to love?</p>
                     <h2>5. Arabic</h2>
-                    <p><img src="https://www.babbel.com/magazine/static/img/en/ARABIC.jpg" alt="Arabic"/>
+                    <p>
+                      <amp-img
+                        src="https://www.babbel.com/magazine/static/img/en/ARABIC.jpg"
+                        width="700" height="200"
+                        alt="Arabic"
+                        layout="responsive"
+                      />
                       <br></p>
                     <p>Recent numbers put Arabic at around 250 million native speakers. But this is another instance of numbers not telling the full tale: Arabic, like Chinese, is so vastly different in its respective dialects as to be effectively a number of languages,
                       grouped as one for the sake of convenience. Modern Standard Arabic is a primarily written form, closely related to the Classical Arabic of the Quran. However, the spoken forms of Arabic in, say, Oman and Morocco are so different that a couple of
                       philosophy professors from these countries might be able to discuss the finer points of the ancient texts while struggling to order lunch.
                     </p>
                     <h2>6. Portuguese</h2>
-                    <p><img src="https://www.babbel.com/magazine/static/img/en/PORTUGUES.jpg" alt="Portuguese"/>
+                    <p>
+                      <amp-img
+                        src="https://www.babbel.com/magazine/static/img/en/PORTUGUES.jpg"
+                        width="700" height="200"
+                        alt="Portuguese"
+                        layout="responsive"
+                      />
                       <br></p>
                     <p>This is another language whose reach owes much to its colonial past. Starting in the 15th century, avid Portuguese traders and conquerors brought their language to Africa, Asia and the Americas. The spread of Portuguese may have initially been
                       tied to European colonization, but the colonized countries developed their own vibrant cultures that transformed the language forever. Today, Portuguese is spoken by 215 million native speakers in countries like Brazil, Goa, Angola, Mozambique, Cape
                       Verde, Guinea-Bisseau, São Tomé and Príncipe, and Macau. It&#8217;s also the language of Machado de Assis, Bossa Nova, Mia Couto, Fernando Pessoa, and Agualusa.</p>
                     <h2>7. Bengali</h2>
-                    <p><img src="https://www.babbel.com/magazine/static/img/en/Bengali-20161117085708.jpg" alt=""/>
-                      <br></p>
+                    <p>
+                      <amp-img
+                        src="https://www.babbel.com/magazine/static/img/en/Bengali-20161117085708.jpg"
+                        width="700" height="200"
+                        layout="responsive"
+                        alt=""/>
+                      <br>
+                    </p>
                     <p>Admit it: you didn’t expect Bengali to be on this list. The Partition of Bengal by the British in 1947 divided (mainly Hindu) West Bengal, now part of India, from its (mainly Muslim) counterpart East Bengal, now Bangladesh. It is the language of
                       Kolkata, of the Andaman Islands, of fabulous sweets, and of 170-odd million Bangladeshis, many of whom are extremely vulnerable to climate change; by the next century, the population is projected to double while 15% of the land area is expected to
                       disappear below rising seas.</p>
                     <h2>8. Russian</h2>
-                    <p><img src="https://www.babbel.com/magazine/static/img/en/RUSSIAN.jpg" alt="Russian"/>
-                      <br></p>
+                    <p>
+                      <amp-img
+                        src="https://www.babbel.com/magazine/static/img/en/RUSSIAN.jpg"
+                        width="700" height="200"
+                        alt="Russian"
+                        layout="responsive"
+                      />
+                      <br>
+                    </p>
                     <p>With roughly 170 million native speakers as of 2010, Russian is the eighth most spoken language in the world. Famed for its inscrutable grammar and quite lovely Cyrillic script, it remains one of the six languages spoken in the UN, and produced
                       the likes of Dostoyevsky, Nabokov, Chekhov, Goyal, Tolstoy and Pushkin.</p>
                     <h2>9. Japanese</h2>
-                    <p><img src="https://www.babbel.com/magazine/static/img/en/JAPANESE.jpg" alt="Japanese"/>
+                    <p>
+                      <amp-img
+                        src="https://www.babbel.com/magazine/static/img/en/JAPANESE.jpg"
+                        width="700" height="200"
+                        alt="Japanese"
+                        layout="responsive"
+                      />
                       <br></p>
                     <p>Almost all of the 130 million native Japanese speakers live in Japan — certainly the most highly geographically concentrated of all the languages on this list. Japanese boasts two distinct writing systems,
                       <em>hirogana</em>
@@ -314,7 +421,13 @@
                       <em>Kanji</em>
                       characters. The largest groups living outside Japan can be found in the US, the Philippines, and Brazil.</p>
                     <h2>10. Punjabi/Lahnda</h2>
-                    <p><img src="https://www.babbel.com/magazine/static/img/en/PUNJABI.jpg" alt="Punjabi"/>
+                    <p>
+                      <amp-img
+                        src="https://www.babbel.com/magazine/static/img/en/PUNJABI.jpg"
+                        width="700" height="200"
+                        alt="Punjabi"
+                        layout="responsive"
+                      />
                       <br></p>
                     <p>With varying estimates of around 100 million native speakers, last spot on the list goes to… Punjabi! (Sorry, German — you got dumped a few years back.) Spoken in large tracts of India and Pakistan, the Punjab was sliced in two by the British when
                       they left, and millions of people were forced to abandon their homes, businesses and families. But they’re slowly taking their revenge, Bollywood-style: Punjabi songs now account for 50% of chart-toppers.</p>
@@ -429,8 +542,9 @@
                     </div>
                     <div class="span3 addthis-icon vertical-align">
                       <div class="addthis_sharing_toolbox"></div>
-                      <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-53a1a42170383904"></script>
-
+                      <!-- BEGIN removed addthis javascript - again -->
+                      <!-- <script async type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-53a1a42170383904"></script> -->
+                      <!-- END removed addthis javascript - again -->
                     </div>
                     <div class="span2 related-tags-title vertical-align text-uppercase text-right">
                       Tags
@@ -463,7 +577,12 @@
                     <div class="row">
                       <div class="span1">
                         <a href="/en/magazine/contributors/james-lane">
-                          <img class="img-circle" src="https://www.babbel.com/magazine/static/img/contributors/en/james-lane-20150715091558.jpg"/>
+                          <amp-img
+                            class="img-circle"
+                            src="https://www.babbel.com/magazine/static/img/contributors/en/james-lane-20150715091558.jpg"
+                            width="100" height="100"
+                            layout="responsive"
+                          />
                         </a>
                       </div>
                       <div class="span7">
@@ -484,7 +603,12 @@
                 <h4>Articles you might also like</h4>
                 <div class="row-fluid">
                   <div class="span4">
-                    <img src="https://www.babbel.com/magazine/static/img/thumbnails/en/36_380_The-Tongue-Twister-Challenge.jpg" alt="Can You Say These 9 Tongue Twisters In 9 Different Languages?"/>
+                    <amp-img
+                      src="https://www.babbel.com/magazine/static/img/thumbnails/en/36_380_The-Tongue-Twister-Challenge.jpg"
+                      alt="Can You Say These 9 Tongue Twisters In 9 Different Languages?"
+                      width="380" height="240"
+                      layout="responsive"
+                    />
                     <h5 class="font-normal">
                       <a href="/en/magazine/tongue-twister-challenge">Can You Say These 9 Tongue Twisters In 9 Different Languages?</a>
                     </h5>
@@ -492,7 +616,12 @@
                   </div>
 
                   <div class="span4">
-                    <img src="https://www.babbel.com/magazine/static/img/thumbnails/en/14_380_You-Cant-Say-That-in-English-Untranslatable-Words-from-Around-the-World.jpg" alt="Untranslatable Words From Around The World"/>
+                    <amp-img
+                      src="https://www.babbel.com/magazine/static/img/thumbnails/en/14_380_You-Cant-Say-That-in-English-Untranslatable-Words-from-Around-the-World.jpg"
+                      width="380" height="240"
+                      alt="Untranslatable Words From Around The World"
+                      layout="responsive"
+                    />
                     <h5 class="font-normal">
                       <a href="/en/magazine/untranslatable-01">Untranslatable Words From Around The World</a>
                     </h5>
@@ -500,7 +629,12 @@
                   </div>
 
                   <div class="span4">
-                    <img src="https://www.babbel.com/magazine/static/img/thumbnails/en/knives380x.png" alt="It's Raining Pocket Knives! Colorful Weather Idioms From Around The World"/>
+                    <amp-img
+                      src="https://www.babbel.com/magazine/static/img/thumbnails/en/knives380x.png"
+                      alt="It's Raining Pocket Knives! Colorful Weather Idioms From Around The World"
+                      width="380" height="240"
+                      layout="responsive"
+                    />
                     <h5 class="font-normal">
                       <a href="/en/magazine/colorful-weather-idioms-from-around-the-world">It's Raining Pocket Knives! Colorful Weather Idioms From Around The World</a>
                     </h5>
@@ -763,7 +897,8 @@
       </div>
     </div>
   </footer>
-  <script type="text/javascript">
+  <!-- BEGIN removed disqus javascript -->
+  <!-- <script async type="text/javascript">
     var disqus_shortname = 'babbel-magazine'; // required: replace example with your forum shortname
     (function () {
       var dsq = document.createElement('script');
@@ -772,8 +907,11 @@
       dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
       (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
     })();
-  </script>
-  <script src="https://www.babbel.com/magazine/static/magazine-2e6b89a21d17883e2754618cc59a0447ee86b1f5cf8fd4426237349bbf58015d.js"></script>
+  </script> -->
+  <!-- END removed disqus javascript -->
+  <!-- BEGIN removed babbel javascript -->
+  <!-- <script src="https://www.babbel.com/magazine/static/magazine-2e6b89a21d17883e2754618cc59a0447ee86b1f5cf8fd4426237349bbf58015d.js"></script> -->
+  <!-- END removed babbel javascript -->
 </body>
 
 </html>
