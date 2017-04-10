@@ -1,0 +1,11 @@
+Is magazine using
+  1.  carousel?
+  2.  progress-bar?
+  3.  dropdowns?
+  4.  breadcrumbs?
+  5.  pagination?
+  6.  modal?
+  7.  tooltip?
+  8.  badge(s)?
+  9.  accordion?
+  10. bootstrap-select?
